@@ -1,6 +1,6 @@
-### Redbubble Automation V1
+### Redbubble AI Automation V1
 
-This script allows you to create an image and its redbubble parameters using AI, and upload it to your redbubble account. No maintenance required, just set up the project on an ubuntu machine, create the cron task and let the script do the work for you.
+This script allows you to create an image and its redbubble parameters using AI (ChatGPT and Replicate), and upload it to your redbubble account. No maintenance required, just set up the project on an ubuntu machine, create the cron task and let the script do the work for you.
 
 Set up the following environment variables in an .env file at the root of the project
 
