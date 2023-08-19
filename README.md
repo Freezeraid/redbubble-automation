@@ -3,18 +3,18 @@
 This script allows you to create an image and its redbubble parameters using AI, and upload it to your redbubble account. No maintenance required, just set up the project on an ubuntu machine, create the cron task and let the script do the work for you.
 
 Set up the following environment variables in an .env file at the root of the project
-<sup>
+<code>
 REDBUBBLE_URL=https://www.redbubble.com/
 OPENAI_API_KEY=sk- //Your OPENAI API Key
 REPLICATE_API_KEY= //Your Replicate API Key
 REDBUBBLE_LOGIN= //Redbubble account email
 REDBUBBLE_PW= //Redbubble account password
 START_DATE= //Date of creation and setup of account information, YYYY-MM-DD
-</sup>
+</code>
 
 Use the following Ubuntu commands to set up the picture upload automation every 30mins. 
 
-<sup>
+<code>
 sudo apt update
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
@@ -43,4 +43,4 @@ crontab -e
 */30 * * * * /home/ubuntu/redbubble-scrapper/run.sh >> /home/ubuntu/redbubble-scrapper/cron.log 2>&1
 
 sudo reboot
-</sup>
+</code>
