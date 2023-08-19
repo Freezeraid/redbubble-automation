@@ -40,7 +40,7 @@ chmod +x run.sh
 sudo apt-get install -y libxi6 libxtst6 libcups2 libxss1 libxrandr2 libasound2 libpangocairo-1.0-0 libgtk-3-0 xvfb x11-xkb-utils xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic x11-apps libx11-xcb1 libxcomposite1 libxdamage1 libxext6 libxfixes3 libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libgtk-3-0 libxrandr2 libxshmfence1 libgbm1 libasound2
 
 crontab -e
-*/30 * * * * /home/ubuntu/redbubble-scrapper/run.sh >> /home/ubuntu/redbubble-scrapper/cron.log 2>&1
+*/30 * * * * /home/ubuntu/redbubble-automation/run.sh >> /home/ubuntu/redbubble-automation/cron.log 2>&1
 
 sudo reboot</code>
 
