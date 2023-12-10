@@ -1,3 +1,9 @@
 .env
 *.log
 /node_modules
+REDBUBBLE_URL=https://www.redbubble.com/
+OPENAI_API_KEY=sk- //Your OPENAI API Key
+REPLICATE_API_KEY= //Your Replicate API Key
+REDBUBBLE_LOGIN= //Redbubble account email
+REDBUBBLE_PW= //Redbubble account password
+START_DATE= //Date of creation and setup of account information, YYYY-MM-DD
