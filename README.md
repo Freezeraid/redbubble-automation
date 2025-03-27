@@ -44,4 +44,4 @@ crontab -e
 
 sudo reboot</code>
 
-Check my web developer website <a href="https://killiandoubre.com">https://killiandoubre.com</a>
+Check my web developer website <a href="https://killiandoubre.com" rel="dofollow">https://killiandoubre.com</a>
